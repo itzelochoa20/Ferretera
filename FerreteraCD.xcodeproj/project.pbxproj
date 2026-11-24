@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC801BE130A38805009EFB40 /* FerreteraCDApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC801BE030A38805009EFB40 /* FerreteraCDApp.swift */; };
+		AC801BE330A38805009EFB40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC801BE230A38805009EFB40 /* ContentView.swift */; };
+		AC801BE530A38809009EFB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC801BE430A38809009EFB40 /* Assets.xcassets */; };
+		AC801BE830A38809009EFB40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC801BE730A38809009EFB40 /* Preview Assets.xcassets */; };
+		AC801BEA30A38809009EFB40 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC801BE930A38809009EFB40 /* Persistence.swift */; };
+		AC801BED30A38809009EFB40 /* FerreteraCD.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC801BEB30A38809009EFB40 /* FerreteraCD.xcdatamodeld */; };
+		AC801BF730A3880A009EFB40 /* FerreteraCDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC801BF630A3880A009EFB40 /* FerreteraCDTests.swift */; };
+		AC801C0130A3880A009EFB40 /* FerreteraCDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC801C0030A3880A009EFB40 /* FerreteraCDUITests.swift */; };
+		AC801C0330A3880A009EFB40 /* FerreteraCDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC801C0230A3880A009EFB40 /* FerreteraCDUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC801BF330A3880A009EFB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC801BD530A38800009EFB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC801BDC30A38803009EFB40;
+			remoteInfo = FerreteraCD;
+		};
+		AC801BFD30A3880A009EFB40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC801BD530A38800009EFB40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC801BDC30A38803009EFB40;
+			remoteInfo = FerreteraCD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC801BDD30A38805009EFB40 /* FerreteraCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FerreteraCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC801BE030A38805009EFB40 /* FerreteraCDApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerreteraCDApp.swift; sourceTree = "<group>"; };
+		AC801BE230A38805009EFB40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC801BE430A38809009EFB40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC801BE730A38809009EFB40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC801BE930A38809009EFB40 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AC801BEC30A38809009EFB40 /* FerreteraCD.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FerreteraCD.xcdatamodel; sourceTree = "<group>"; };
+		AC801BF230A3880A009EFB40 /* FerreteraCDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FerreteraCDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC801BF630A3880A009EFB40 /* FerreteraCDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerreteraCDTests.swift; sourceTree = "<group>"; };
+		AC801BFC30A3880A009EFB40 /* FerreteraCDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FerreteraCDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC801C0030A3880A009EFB40 /* FerreteraCDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerreteraCDUITests.swift; sourceTree = "<group>"; };
+		AC801C0230A3880A009EFB40 /* FerreteraCDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerreteraCDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC801BDA30A38803009EFB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC801BEF30A3880A009EFB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC801BF930A3880A009EFB40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC801BD430A387F1009EFB40 = {
+			isa = PBXGroup;
+			children = (
+				AC801BDF30A38805009EFB40 /* FerreteraCD */,
+				AC801BF530A3880A009EFB40 /* FerreteraCDTests */,
+				AC801BFF30A3880A009EFB40 /* FerreteraCDUITests */,
+				AC801BDE30A38805009EFB40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC801BDE30A38805009EFB40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC801BDD30A38805009EFB40 /* FerreteraCD.app */,
+				AC801BF230A3880A009EFB40 /* FerreteraCDTests.xctest */,
+				AC801BFC30A3880A009EFB40 /* FerreteraCDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC801BDF30A38805009EFB40 /* FerreteraCD */ = {
+			isa = PBXGroup;
+			children = (
+				AC801BE030A38805009EFB40 /* FerreteraCDApp.swift */,
+				AC801BE230A38805009EFB40 /* ContentView.swift */,
+				AC801BE430A38809009EFB40 /* Assets.xcassets */,
+				AC801BE930A38809009EFB40 /* Persistence.swift */,
+				AC801BEB30A38809009EFB40 /* FerreteraCD.xcdatamodeld */,
+				AC801BE630A38809009EFB40 /* Preview Content */,
+			);
+			path = FerreteraCD;
+			sourceTree = "<group>";
+		};
+		AC801BE630A38809009EFB40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC801BE730A38809009EFB40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC801BF530A3880A009EFB40 /* FerreteraCDTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC801BF630A3880A009EFB40 /* FerreteraCDTests.swift */,
+			);
+			path = FerreteraCDTests;
+			sourceTree = "<group>";
+		};
+		AC801BFF30A3880A009EFB40 /* FerreteraCDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC801C0030A3880A009EFB40 /* FerreteraCDUITests.swift */,
+				AC801C0230A3880A009EFB40 /* FerreteraCDUITestsLaunchTests.swift */,
+			);
+			path = FerreteraCDUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC801BDC30A38803009EFB40 /* FerreteraCD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC801C0630A3880A009EFB40 /* Build configuration list for PBXNativeTarget "FerreteraCD" */;
+			buildPhases = (
+				AC801BD930A38803009EFB40 /* Sources */,
+				AC801BDA30A38803009EFB40 /* Frameworks */,
+				AC801BDB30A38803009EFB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FerreteraCD;
+			productName = FerreteraCD;
+			productReference = AC801BDD30A38805009EFB40 /* FerreteraCD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC801BF130A3880A009EFB40 /* FerreteraCDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC801C0930A3880A009EFB40 /* Build configuration list for PBXNativeTarget "FerreteraCDTests" */;
+			buildPhases = (
+				AC801BEE30A3880A009EFB40 /* Sources */,
+				AC801BEF30A3880A009EFB40 /* Frameworks */,
+				AC801BF030A3880A009EFB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC801BF430A3880A009EFB40 /* PBXTargetDependency */,
+			);
+			name = FerreteraCDTests;
+			productName = FerreteraCDTests;
+			productReference = AC801BF230A3880A009EFB40 /* FerreteraCDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC801BFB30A3880A009EFB40 /* FerreteraCDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC801C0C30A3880A009EFB40 /* Build configuration list for PBXNativeTarget "FerreteraCDUITests" */;
+			buildPhases = (
+				AC801BF830A3880A009EFB40 /* Sources */,
+				AC801BF930A3880A009EFB40 /* Frameworks */,
+				AC801BFA30A3880A009EFB40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC801BFE30A3880A009EFB40 /* PBXTargetDependency */,
+			);
+			name = FerreteraCDUITests;
+			productName = FerreteraCDUITests;
+			productReference = AC801BFC30A3880A009EFB40 /* FerreteraCDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC801BD530A38800009EFB40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					AC801BDC30A38803009EFB40 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					AC801BF130A3880A009EFB40 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AC801BDC30A38803009EFB40;
+					};
+					AC801BFB30A3880A009EFB40 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = AC801BDC30A38803009EFB40;
+					};
+				};
+			};
+			buildConfigurationList = AC801BD830A38800009EFB40 /* Build configuration list for PBXProject "FerreteraCD" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC801BD430A387F1009EFB40;
+			productRefGroup = AC801BDE30A38805009EFB40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC801BDC30A38803009EFB40 /* FerreteraCD */,
+				AC801BF130A3880A009EFB40 /* FerreteraCDTests */,
+				AC801BFB30A3880A009EFB40 /* FerreteraCDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC801BDB30A38803009EFB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC801BE830A38809009EFB40 /* Preview Assets.xcassets in Resources */,
+				AC801BE530A38809009EFB40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC801BF030A3880A009EFB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC801BFA30A3880A009EFB40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC801BD930A38803009EFB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC801BEA30A38809009EFB40 /* Persistence.swift in Sources */,
+				AC801BE330A38805009EFB40 /* ContentView.swift in Sources */,
+				AC801BE130A38805009EFB40 /* FerreteraCDApp.swift in Sources */,
+				AC801BED30A38809009EFB40 /* FerreteraCD.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC801BEE30A3880A009EFB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC801BF730A3880A009EFB40 /* FerreteraCDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC801BF830A3880A009EFB40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC801C0330A3880A009EFB40 /* FerreteraCDUITestsLaunchTests.swift in Sources */,
+				AC801C0130A3880A009EFB40 /* FerreteraCDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC801BF430A3880A009EFB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC801BDC30A38803009EFB40 /* FerreteraCD */;
+			targetProxy = AC801BF330A3880A009EFB40 /* PBXContainerItemProxy */;
+		};
+		AC801BFE30A3880A009EFB40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC801BDC30A38803009EFB40 /* FerreteraCD */;
+			targetProxy = AC801BFD30A3880A009EFB40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC801C0430A3880A009EFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC801C0530A3880A009EFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC801C0730A3880A009EFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FerreteraCD/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FerreteraCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC801C0830A3880A009EFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FerreteraCD/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FerreteraCD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC801C0A30A3880A009EFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FerreteraCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FerreteraCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FerreteraCD";
+			};
+			name = Debug;
+		};
+		AC801C0B30A3880A009EFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FerreteraCDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FerreteraCD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FerreteraCD";
+			};
+			name = Release;
+		};
+		AC801C0D30A3880A009EFB40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FerreteraCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FerreteraCD;
+			};
+			name = Debug;
+		};
+		AC801C0E30A3880A009EFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.FerreteraCDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FerreteraCD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC801BD830A38800009EFB40 /* Build configuration list for PBXProject "FerreteraCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC801C0430A3880A009EFB40 /* Debug */,
+				AC801C0530A3880A009EFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC801C0630A3880A009EFB40 /* Build configuration list for PBXNativeTarget "FerreteraCD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC801C0730A3880A009EFB40 /* Debug */,
+				AC801C0830A3880A009EFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC801C0930A3880A009EFB40 /* Build configuration list for PBXNativeTarget "FerreteraCDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC801C0A30A3880A009EFB40 /* Debug */,
+				AC801C0B30A3880A009EFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC801C0C30A3880A009EFB40 /* Build configuration list for PBXNativeTarget "FerreteraCDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC801C0D30A3880A009EFB40 /* Debug */,
+				AC801C0E30A3880A009EFB40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC801BEB30A38809009EFB40 /* FerreteraCD.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC801BEC30A38809009EFB40 /* FerreteraCD.xcdatamodel */,
+			);
+			currentVersion = AC801BEC30A38809009EFB40 /* FerreteraCD.xcdatamodel */;
+			path = FerreteraCD.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC801BD530A38800009EFB40 /* Project object */;
+}
